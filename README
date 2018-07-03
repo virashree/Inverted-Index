@@ -1,0 +1,19 @@
+# Created By: Virashree Patel
+
+Program structure:
+
+textProcessor.py : contains functions regarding text processing i.e. remove stop words, punctuation and stemming
+index.py: includes functions for calculating tf-idf, cosine similarities, recall and precision
+src.py : main function outputs the results and evaluates the queries
+
+How to run the code:
+
+Enter appropriate paths to the input files. For this projects the input used are as below...
+
+    Enter the path to Directory for the documents ex. cranfieldDocs:cranfieldDocs
+    Enter the path for queries to be evaluated:queries.txt
+    Enter the path for relevant documents file:relevance.txt
+    Enter path to the stopwords file:stopwords.txt
+
+After entering appropriate file paths simply run src.py and results will be printed on the screen for top 10,50,100 and 500 documents
+with document list, recall and precision
